@@ -1,5 +1,11 @@
 package strategy;
 
+import strategy.duck.DecoyDuck;
+import strategy.duck.Duck;
+import strategy.duck.MallardDuck;
+import strategy.duck.MandarinDuck;
+import strategy.duck.RubberDuck;
+
 public class DuckSimulator {
 
     public static void main(String[] args) {

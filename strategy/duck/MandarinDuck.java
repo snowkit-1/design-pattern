@@ -1,4 +1,7 @@
-package strategy;
+package strategy.duck;
+
+import strategy.fly.FlyWithWings;
+import strategy.quack.Quack;
 
 public class MandarinDuck extends Duck {
 

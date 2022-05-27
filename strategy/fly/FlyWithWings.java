@@ -1,4 +1,4 @@
-package strategy;
+package strategy.fly;
 
 public class FlyWithWings implements FlyBehavior {
 
