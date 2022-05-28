@@ -22,7 +22,7 @@ public abstract class Duck {
     // 모든 오리는 각각 생김새가 다르기에 display()는 직접 구현
     public abstract void display();
 
-    // 모든 오리는 헤엄칠 수 있기 때문에 swim 상속
+    // 모든 오리는 헤엄칠 수 있기 때문에 swim() 상속
     public void swim() {
         System.out.println("모든 오리는 헤엄칠 수 있어요");
     }
