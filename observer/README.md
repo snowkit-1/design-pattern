@@ -40,10 +40,10 @@ class WeatherData {
 ```
 * 위 구현의 문제점
   * weatherDisplay, statisticsDisplay, forecastDisplay
-    * 인터페이스가 아닌 구체적인 구현을 바탕으로 개발하였음
-    * 캡슐화하지 않았음
+    * 인터페이스가 아닌 구체적인 구현을 바탕으로 개발
+    * 캡슐화하지 않음
     * 코드를 수정하지 않으면 디스플레이 기능을 추가할 수 없음
-  * 서버 실행 중에 디스플레이를 더하거나 뺄 수 없음
+  * 실행 중에 디스플레이를 더하거나 뺄 수 없다
 
 ## Observer Pattern이란?
 * Subject(주제) - Observer(옵저버)
@@ -58,8 +58,8 @@ class WeatherData {
 ## Observer Pattern 구현 방법
 ```java
 interface Subject {
-    registerObserver();
-    removeObserver();
+    registerObserver(Observer observer);
+    removeObserver(Observer observer);
     notifyObservers();
 }
 
